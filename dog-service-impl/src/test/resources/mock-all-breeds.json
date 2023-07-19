@@ -1,0 +1,22 @@
+{
+  "message": {
+    "affenpinscher": [],
+    "african": [],
+    "airedale": [],
+    "akita": [],
+    "appenzeller": [],
+    "australian": [
+      "shepherd"
+    ],
+    "shiba": [],
+    "sheepdog": [
+      "english",
+      "indonesia"
+    ],
+    "terrier": [
+      "papua",
+      "poland"
+    ]
+  },
+  "status": "success"
+}

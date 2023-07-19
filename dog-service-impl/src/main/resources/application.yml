@@ -1,0 +1,9 @@
+server:
+  port: 9000
+
+redis:
+  hostname: localhost
+  port: 6379
+  username: samuelbatara
+  password: samuelbatararedis
+  database: 0

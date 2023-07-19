@@ -1,0 +1,4 @@
+rootProject.name = 'dog-backend'
+include 'dog-service-api'
+include 'dog-service-impl'
+

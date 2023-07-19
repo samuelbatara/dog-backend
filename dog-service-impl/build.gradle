@@ -1,0 +1,17 @@
+apply {
+  plugin 'java'
+  plugin 'org.springframework.boot'
+}
+
+dependencies {
+  implementation project(':dog-service-api')
+  implementation 'com.google.code.gson:gson:2.8.9'
+  implementation 'org.springframework.boot:spring-boot-starter-web'
+  implementation ('org.springframework.boot:spring-boot-starter-data-redis') {
+    exclude group: 'io.lettuce.lettuce-core'
+  }
+  // https://mvnrepository.com/artifact/redis.clients/jedis
+  implementation 'redis.clients:jedis'
+  implementation 'io.springfox:springfox-boot-starter:3.0.0'
+  implementation 'io.springfox:springfox-swagger-ui:3.0.0'
+}
